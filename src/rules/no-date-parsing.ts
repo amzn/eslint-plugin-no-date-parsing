@@ -6,7 +6,7 @@
 import { ESLintUtils, TSESTree } from '@typescript-eslint/experimental-utils';
 import { TypeFlags } from 'typescript';
 
-const rule = ESLintUtils.RuleCreator(() => 'https://www.example.com/to-be-determined')({
+const rule = ESLintUtils.RuleCreator(() => 'https://github.com/amzn/eslint-plugin-no-date-parsing')({
   name: 'no-date-parsing',
   meta: {
     type: 'problem',
