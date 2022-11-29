@@ -30,6 +30,10 @@ moment(new Date('2020-03-27')).format('YYYY-MM-DD')
 npm install --save-dev eslint-plugin-no-date-parsing
 ```
 
+**`eslint-plugin-no-date-parsing` version 0:** Supports `eslint` v7 and `@typescript-eslint` v4.
+
+**`eslint-plugin-no-date-parsing` version 1:** Supports `eslint` v8 and `@typescript-eslint` v5.
+
 ## Usage
 
 Add `no-date-parsing` to the plugins section of your .eslintrc configuration file. You can omit the eslint-plugin- prefix:

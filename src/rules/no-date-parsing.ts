@@ -3,7 +3,7 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
-import { ESLintUtils, TSESTree } from '@typescript-eslint/experimental-utils';
+import { ESLintUtils, TSESTree } from '@typescript-eslint/utils';
 import { TypeFlags } from 'typescript';
 
 const rule = ESLintUtils.RuleCreator(() => 'https://github.com/amzn/eslint-plugin-no-date-parsing')({
@@ -12,7 +12,6 @@ const rule = ESLintUtils.RuleCreator(() => 'https://github.com/amzn/eslint-plugi
     type: 'problem',
     docs: {
       description: 'Disallow `Date` string parsing',
-      category: 'Possible Errors',
       recommended: 'error'
     },
     messages: {
