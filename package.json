@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-date-parsing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Disallow string parsing with new Date and Date.parse.",
   "main": "dist/index.js",
   "scripts": {
